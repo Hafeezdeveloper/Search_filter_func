@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,49 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.lnk{
+  text-decoration: none;
+  color: black !important;
+}
+
+.title_sp{
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.css-hyum1k-MuiToolbar-root{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
+#positin_nav{
+  position: relative !important; 
+  /* margin: 0px -29px !important; */
+  
+}
+
+@media (max-width:668px) and (min-width:600px) {
+  #abc{
+    margin: 0px 5px !important;
+  }
+  
+}
+
+@media (max-width:1550px) and (min-width:800px) {
+  #serch_css{
+    width: 50% !important;
+  }
+ 
+}
+
+@media (max-width:599px) and (min-width:100px) {
+  .css-hyum1k-MuiToolbar-root{
+    
+    display: flex;
+justify-content: space-between;
+  }
+ 
 }
